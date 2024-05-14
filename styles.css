@@ -1,0 +1,186 @@
+body {
+    /* background-color: aqua; */
+    margin: 0;
+    background-image: url(./images/back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    margin-left: 20p0x;
+    margin-right: 20px;
+}
+
+
+h1 {
+
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: green(0, 0%, 25%);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: blue;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar a.hover {
+    background-color: navajowhite(0, 0%, 10%);
+}
+
+.navbar li {
+    float: right;
+}
+
+.contact-coding {
+    color: purple;
+
+}
+
+#about-coding {
+    color: blue;
+}
+
+.Homepage-coding {
+    color: green;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#index-coding {
+    color: greenyellow;
+}
+
+.home {
+    color: blue;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#Misions {
+    color: blue;
+    font-style: italic;
+}
+
+#Visions {
+    color: purple;
+    font-style: italic;
+    font-weight: 500;
+    font-size: large;
+}
+
+.login {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    order: none;
+    color: green;
+}
+
+#label {
+    color: navy;
+    font-style: italic;
+    font-weight: 600;
+    font-size: larger;
+}
+
+input type {
+    color: brown;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#email {
+    color: red;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#nav {
+    color: brown;
+    font-style: italic;
+    padding-left: 0%;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.code {
+    color: hotpink;
+    font-style: italic;
+}
+#page{
+    color: darkgoldenrod;
+    font-style: initial;
+    font-variant-numeric: slashed-zero;
+}
+.contact{
+    color: chocolate;
+}
+.number{
+    color: darkolivegreen;
+    font-weight: lighter;
+}
+#digits{
+    color: darkslateblue;
+}
+.address{
+    color: blueviolet;
+}
+#quotes{
+    font-size: xx-large;
+    color: indigo;
+    font-style: italic;
+}
+.roles{
+    color: darkorange;
+    font-size: medium;
+    font-weight: bold;
+    font-style: calc(nav)
+}
+#psyche{
+    font-weight: lighter;
+    font-style: inheri;
+    color: blue;
+    font-size: large;
+}
+.nice{
+    color: maroon;
+}
+.M{
+    color: deeppink;
+    font-size: larger;
+}
+.V{
+    color: darkgreen;
+    font-size: xx-large;
+    font-style: italic;
+}
+#slogans{
+    color: purple;
+    font-size: xx-large;
+    font-style: italic;
+}
+.slog{
+    color: mediumblue;
+}
+
+
+
