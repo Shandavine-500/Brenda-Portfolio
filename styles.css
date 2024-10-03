@@ -1,186 +1,160 @@
-body {
-    /* background-color: aqua; */
+/* Root variables for consistent theme */
+:root {
+    --primary-color: blue;
+    --secondary-color: green;
+    --accent-color: darkorange;
+    --text-color: #333;
+    --bg-color: #f9f9f9;
+    --font-family: 'Arial', sans-serif;
+}
+
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
     background-image: url(./images/back.jpg);
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    color: var(--text-color);
 }
 
+/* Basic layout */
 main {
-    margin-left: 20p0x;
-    margin-right: 20px;
+    padding: 20px;
 }
 
-
-h1 {
-
+h1, h2, h3, h4, h5 {
     text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: var(--primary-color);
 }
 
 .navbar ul {
-    list-style-type: none;
-    background-color: green(0, 0%, 25%);
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
 }
 
 .navbar a {
-    color: blue;
+    color: white;
     text-decoration: none;
-    padding: 20px;
-    display: block;
-    text-align: center;
     font-weight: bold;
 }
 
-.navbar a.hover {
-    background-color: navajowhite(0, 0%, 10%);
+.navbar a:hover {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    transition: 0.3s ease;
 }
 
-.navbar li {
-    float: right;
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
-.contact-coding {
-    color: purple;
-
+table, th, td {
+    border: 1px solid #ddd;
 }
 
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+/* Heading styles */
 #about-coding {
-    color: blue;
+    color: var(--primary-color);
+    margin-bottom: 20px;
 }
 
-.Homepage-coding {
-    color: green;
-    font-size: x-large;
+#quotes {
+    font-size: 1.5rem;
+    color: var(--accent-color);
     font-style: italic;
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0;
 }
 
-#index-coding {
-    color: greenyellow;
-}
-
-.home {
-    color: blue;
+/* Mission and Vision */
+#Misions, #Visions {
+    color: var(--primary-color);
     font-style: italic;
-    font-weight: 500;
+    margin: 10px 0;
 }
 
-#Misions {
-    color: blue;
+.M, .V {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* Roles section */
+.roles {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Quotes styling */
+#psyche {
+    font-weight: lighter;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+/* Section titles */
+h5, .TOOLS {
+    font-weight: bold;
+    color: var(--primary-color);
     font-style: italic;
+    margin-top: 20px;
 }
 
-#Visions {
-    color: purple;
-    font-style: italic;
-    font-weight: 500;
-    font-size: large;
+/* Section for frontend developer plan */
+#FRONTEND {
+    color: var(--primary-color);
+    font-weight: bolder;
 }
 
-.login {
-    padding: 15px 32px;
+.HTML, #javascript {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utility Classes */
+.text-center {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    order: none;
-    color: green;
 }
 
-#label {
-    color: navy;
-    font-style: italic;
-    font-weight: 600;
-    font-size: larger;
-}
-
-input type {
-    color: brown;
-    font-style: italic;
-    font-weight: 500;
-}
-
-#email {
-    color: red;
-    font-style: italic;
-    font-weight: 400;
-}
-
-#nav {
-    color: brown;
-    font-style: italic;
-    padding-left: 0%;
-    padding-top: 10px;
+.bold {
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.code {
-    color: hotpink;
+.italic {
     font-style: italic;
-}
-#page{
-    color: darkgoldenrod;
-    font-style: initial;
-    font-variant-numeric: slashed-zero;
-}
-.contact{
-    color: chocolate;
-}
-.number{
-    color: darkolivegreen;
-    font-weight: lighter;
-}
-#digits{
-    color: darkslateblue;
-}
-.address{
-    color: blueviolet;
-}
-#quotes{
-    font-size: xx-large;
-    color: indigo;
-    font-style: italic;
-}
-.roles{
-    color: darkorange;
-    font-size: medium;
-    font-weight: bold;
-    font-style: calc(nav)
-}
-#psyche{
-    font-weight: lighter;
-    font-style: inheri;
-    color: blue;
-    font-size: large;
-}
-.nice{
-    color: maroon;
-}
-.M{
-    color: deeppink;
-    font-size: larger;
-}
-.V{
-    color: darkgreen;
-    font-size: xx-large;
-    font-style: italic;
-}
-#slogans{
-    color: purple;
-    font-size: xx-large;
-    font-style: italic;
-}
-.slog{
-    color: mediumblue;
 }
 
-
-
+.larger-text {
+    font-size: 1.2rem;
+}
