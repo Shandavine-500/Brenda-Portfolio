@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar a:hover {
-    background-color: cornflowerblue;
+    background-color:aqua;
     padding: 10px;
     transition: 0.3s ease;
 }
@@ -151,11 +151,9 @@ p {
 .form{
      text-align:  center;
      padding-bottom: 100px;
-     color: midnightblue;
-     font-size: larger;
 }
 .table{
-    color: darkslateblue;
+    color: darkcyan;
     text-align: center;
     max-width: 300px; 
     overflow: hidden;
@@ -175,24 +173,3 @@ p {
     font-weight: 200;
     font-style: italic;
 }
-.CONTACTPAGE{
-    color: deeppink;
-}
-.Homepage-coding{
-    color: navy;
-
-}
-.name{
-    color: crimson;
-    font-weight: 300;
-}
-.p1{
-    color: mediumblue;
-    font-style: italic;
-    font-weight: 300;
-}
-.mail{
-    font-weight: 400;
-    color: brown;
-}
-
